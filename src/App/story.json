@@ -1,0 +1,157 @@
+[
+    {
+        "id": 0,
+        "title": "Początek końca",
+        "text": "Budzisz się zlany potem w ciemnym pomieszczeniu... Ciemość przenika przestrzeń, tak, że ledwo widzisz porozrzucane przedmioty, leżące obok Ciebie. Nieświadomie rozcierasz guza pulsującego na głowie. Co się właściwie stało??? Jeszcze przed chwilą stałeś w przedziale pociągu, którym codziennie od 15 lat wracasz do domu po pracy. W głowie kotłują Ci się przerażające wizje, tego co się może wydarzyć... Co robić?",
+        "progress_title": "Początek końca",
+        "actions": [
+            { "text": "Czekasz na dalszy rozwój wydarzeń", "nextStep": [1,2] },
+            { "text": "Postanawiasz działać, cokolwiek to znaczy", "nextStep": 9 }
+        ]
+    },
+    {
+        "id": 1,
+        "title": "Martwa cisza...",
+        "text": "Siedzisz na ziemi już... właściwie to nie masz pojęcia ile. Przez szczelnie zasłonięte okna wpada na tyle mało światła, że nie jesteś w stanie określić pory dnia. Chaotyczne myśli stają się coraz gęstszą chmurą pozbawiającą Cię umiejętności trzeźwego myślenia. Można powiedzieć, że zaczynasz panikować. Zaczynasz rozglądać się po pomieszczeniu, w którym się znajdujesz. W najciemniejszym kącie dostrzegasz jeszcze ciemniejszą plamę, wyglądającą jak małe drzwi.",
+        "progress_title": "Martwa cisza",
+        "actions": [
+            { "text": "Podchodzisz do drzwi", "nextStep": 3 },
+            { "text": "Olewasz temat i rozglądasz się dalej", "nextStep": 4}
+        ]
+    },
+    {
+        "id": 3,
+        "title": "Drzwi",
+        "text": "Zanurzasz się w kąt pokoju i zaczynasz oglądać najnowsze znalezisko. Metalowe drzwi okazują się być zamknięte na kłódkę, ale cały mechanizm jest dosyć luźny. Po chwili szarpania się z zamkiem stwierdzasz, że potrzebujesz jednak jakiegoś narzędzia. Albo klucza. Nie zastanawiając się długo, postnawiasz znaleźć coś, co pozwoli Ci otworzyć drzwi. W końcu, jakie są inne alternatywy wydostania się z tej dziwnej sytuacji?",
+        "progress_title": "Drzwi",
+        "actions": [
+            { "text": "Szukasz klucza", "nextStep": [7, 9] },
+            { "text": "Szukasz innego narzędzia", "nextStep": [8, 9] }
+        ]
+    },
+    {
+        "id": 7,
+        "title": "Stary klucz",
+        "text": "Po długich, ciągnących sie w nieskończoność, minutach i w końcu godzinach poszukiwań udaje Ci się znaleźć obiecująco wyglądający klucz, który na oko całkiem może pasować do kłódki przy drzwiczkach. Z nadzieją wkładasz klucz do dziurki od zamknięcia. Wstrzymując oddech, powoli przekręcasz i ku Twojemu zdziwieniu kłódka się otwiera. Jednak w środku nic nie ma. Zupełnie pusto, goła wnęka, mogąca kiedyś służyć na sejf lub szafkę. Zrezygnowany siadasz w kącie, żeby chwilę odsapnąć i się nad sobą użalić.",
+        "progress_title": "Stary klucz",
+        "actions": [
+            { "text": "Kontynuujesz przeszukiwanie pokoju", "nextStep": 9 },
+            { "text": "Zrezygnowany, poddajesz się", "nextStep": 10 }
+        ]
+    },
+    {
+        "id": 8,
+        "title": "Łom do wolności",
+        "text": "Po długich, ciągnących sie w nieskończoność, minutach i w końcu godzinach poszukiwań udaje Ci się znaleźć obiecująco wyglądający kawałek metalu, który przy odrobinie siły może otworzyć tajemnicze drzwi. Zmęczony długimi poszukiwaniami w gorącym pomieszczeniu zbierasz się na jeszcze jeden wysiłek. Wkładasz Twój prowizoryczny łom w szczelinę w starysh drzwiach i z całej siły napierasz. Po dłuższym siłowaniu się ze starym zamknięciem drzwi gwałtownie odskakują ukazując... pustą wnękę. Zrezygnowany siadasz w kącie, żeby chwilę odsapnąć i się nad sobą użalić.",
+        "progress_title": "Łom",
+        "actions": [
+            { "text": "Kontynuujesz przeszukiwanie pokoju", "nextStep": 9 },
+            { "text": "Zrezygnowany, poddajesz się", "nextStep": 10 }
+        ]
+    },
+    {
+        "id": 10,
+        "title": "Koniec końca",
+        "text": "Znowu się budzisz... Wydaje Ci się, że już to przeżyłeś. Długie godziny przetrząsania pokoju tak Cię znużyły, że po prostu musiałeś na chwilę zamknąć oczy. Pomieszczenie coraz bardziej przypomina piekarnik, odwodnienie zaczyna dawać Ci się we znaki. Dodatkowo, brak cennego tlenu sprawia, że nie jesteś w stanie już trzeźwo myśleć. Zrezygnowany kładziesz się na podłodze, żeby jeszcze na chwilę się zdrzemnąć. Niestety jest to ostatnia drzemka w Twom życiu...",
+        "progress_title": "Koniec gry",
+        "actions": []
+    },
+    {
+        "id": 9,
+        "title": "Przerażające znalezisko",
+        "text": "Zaczynasz rozgarniać przedmioty i śmieci leżące dookoła Ciebie, cały czas mając w głowie niepokojące pytanie - \"Jak ja się tutaj znalazłem?\" Po godzinie przetrząsania pokoju ciągle nie znalazłeś niczego co mogłoby Ci pomóc odpowiedzieć na natarczywe pytanie. W tym momencie jednak Twoją uwagę przykuwa drobny błysk spod sterty luźno rozrzuconych gazet. Rozsuwasz gazety, podnosisz małą obrączkę i w tym momencie nieświadomie wydajesz przeraźliwy okrzyk. Obrączka znajduje się na palcu, który został brutalnie wyrwany z dłoni nieszczęsnego właściciela lub właścicielki...",
+        "progress_title": "Przerażające znalezisko",
+        "actions": [
+            { "text": "Badasz obrączkę", "nextStep": 11 },
+            { "text": "Wyrzucasz w cholerę", "nextStep": 12}
+        ]
+    },
+    {
+        "id": 4,
+        "title": "Przerażające znalezisko",
+        "text": "Po pewnym czasie, zmęczony własną bezczynnością postanawiasz jednak rozejrzeć po pomieszczeniu. Zaczynasz powoli rozgarniać przedmioty i śmieci leżące dookoła Ciebie, cały czas mając w głowie niepokojące pytanie - \"Jak ja się tutaj znalazłem?\" Po dobrej godzinie przetrząsania pokoju ciągle nie znalazłeś niczego co mogłoby Ci pomóc odpowiedzieć na natarczywe pytanie. W tym momencie jednak Twoją uwagę przykuwa drobny błysk spod sterty luźno rozrzuconych gazet. Rozsuwasz gazety, podnosisz małą obrączkę i w tym momencie nieświadomie wydajesz przeraźliwy okrzyk. Obrączka znajduje się na palcu, który został brutalnie wyrwany z dłoni nieszczęsnego właściciela lub właścicielki...",
+        "progress_title": "Przerażające znalezisko",
+        "actions": [
+            { "text": "Badasz obrączkę", "nextStep": 11 },
+            { "text": "Wyrzucasz w cholerę", "nextStep": 12}
+        ]
+    },
+    {
+        "id": 11,
+        "title": "Damska obrączka",
+        "text": "Powstrzymując przerażenie ostrożnie zdejmujesz obrączkę z palca. W znikomym świetle z okienka z trudem próbujesz odczytać wewnętrzny napis. Przerażenie, które towarzyszyło Ci przy znalezieniu tych drastycznych szczątków jest niczym w porównaniu do emocji, które obudziły się w Tobie po, tym jak przeczytałeś na obrączce datę swojego ślubu i swoje imię. Nie dość, że jesteś z niewiadomych powodów zamknięty w tym pokoju, to okazuje się, że ktoś prawdopodobnie zabił Twoją żonę...",
+        "progress_title": "Obrączka",
+        "actions": [
+            { "text": "Krzyczysz z rozpaczy", "nextStep": 13 },
+            { "text": "Zalewasz się łzami i zasypiasz ze zmęczenia", "nextStep": 10}
+        ]
+    },
+    {
+        "id": 13,
+        "title": "Krzyk rozpaczy",
+        "text": "Nie pamiętasz jak długo krzyczałeś. Powiedzieć, że poczucie pustki i zagubienia po drastycznym znalezieniu obrączki jest przytłaczające, to jak nic nie powiedzieć. Nie wiesz co ze sobą zrobić, czy dalej przeszukiwać pokój czy po prostu się poddać...",
+        "progress_title": "Krzyk rozpaczy",
+        "actions": [
+            { "text": "Szukasz dalej", "nextStep": 14 },
+            { "text": "Poddajesz się", "nextStep": 10}
+        ]
+    },
+    {
+        "id": 14,
+        "title": "Odgłosy",
+        "text": "Nie wiesz po co tak naprawdę znowu przeszukujesz pokój ",
+        "progress_title": "Krzyk rozpaczy",
+        "actions": [
+            { "text": "Szukasz dalej", "nextStep": 100 },
+            { "text": "Poddajesz się", "nextStep": 100}
+        ]
+    },
+    {
+        "id": 12,
+        "title": "Odgłosy",
+        "text": "Inne odgłosy",
+        "progress_title": "Przerażające znalezisko",
+        "actions": [
+            { "text": "Badasz obrączkę", "nextStep": 100 }
+
+        ]
+    },
+
+    {
+        "id": 2,
+        "title": "Odgłosy",
+        "text": "W pomieszczeniu robi się coraz goręcej i duszniej. Małe, szczelnie zasłonięte okienko praktycznie nie przepuszcza światła, a tym bardziej świeżego powietrza. Jeżeli nie zaczniesz czegoś robisz, to niedługo zupełnie zabraknie Ci tlenu. Niezbyt ciekawa perspektywa, więc postanawiasz w końcu podnieść sie z brudnej podłogi. Już się podnosisz, lecz nagle słyszysz dźwięk tak przerażający, że z hukiem spadasz z powrotem na podłogę. Co to było?",
+        "progress_title": "Odgłosy",
+        "actions": [
+            { "text": "Starasz się gdzieś schować", "nextStep": 5 },
+            { "text": "Szukasz źródła odgłosów", "nextStep": 6 }
+        ]
+    },
+    
+    
+    {
+        "id": 5,
+        "title": "5",
+        "text": "Siedzisz na ziemi już... właściwie to nie masz pojęcia ile. Przez szczelnie zasłonięte okna wpada na tyle mało światła, że nie jesteś w stanie określić pory dnia. Chaotyczne myśli stają się coraz gęstszą chmurą pozbawiającą Cię umiejętności trzeźwego myślenia. Można powiedzieć, że zaczynasz panikować. Zaczynasz rozglądać się po pomieszczeniu, w którym się znajdujesz. W najciemniejszym kącie dostrzegasz jeszcze ciemniejszą plamę, wyglądającą jak małe drzwi.",
+        "progress_title": "5",
+        "actions": [
+            { "text": "Podchodzisz do drzwi", "nextStep": 100 }
+        ]
+    },
+    {
+        "id": 6,
+        "title": "6",
+        "text": "W pomieszczeniu robi się coraz goręcej i duszniej. Małe, szczelnie zasłonięte okienko praktycznie nie przepuszcza światła, a tym bardziej świeżego powietrza. Jeżeli nie zaczniesz czegoś robisz, to niedługo zupełnie zabraknie Ci tlenu. Niezbyt ciekawa perspektywa, więc postanawiasz w końcu podnieść sie z brudnej podłogi. Już się podnosisz, lecz nagle słyszysz dźwięk tak przerażający, że z hukiem spadasz z powrotem na podłogę. Co to było?",
+        "progress_title": "6",
+        "actions": [
+            { "text": "Starasz się gdzieś schować", "nextStep": 100 }
+        ]
+    },
+    {
+        "id": 100,
+        "title": "The end",
+        "text": "You won",
+        "progress_title": "The end",
+        "actions": []
+    }
+]
